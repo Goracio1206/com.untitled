@@ -23,6 +23,12 @@ public class User {
         this.role = role;
     }
 
+    public User(String fName, String eMail, String password){
+        this.fName = fName;
+        this.eMail = eMail;
+        this.password = password;
+    }
+
     public String getfName() {
         return fName;
     }
