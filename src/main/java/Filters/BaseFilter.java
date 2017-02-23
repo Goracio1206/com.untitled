@@ -13,7 +13,7 @@ import java.io.IOException;
  * @author Vitalii Nedzelskyi
  */
 
-@WebFilter(filterName = "BaseFilter")
+//@WebFilter(filterName = "BaseFilter")
 public abstract class BaseFilter implements Filter {
     public void destroy() {
         /*NOP*/

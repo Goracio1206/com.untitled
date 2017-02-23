@@ -6,12 +6,31 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.untitled</groupId>
     <artifactId>com.untitled</artifactId>
+    <packaging>war</packaging>
     <version>0.1</version>
     <name>Untitled</name>
 
-    <packaging>war</packaging>
 
-
+<dependencies>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+</dependencies>
+    <build>
+        <finalName>untitled</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
