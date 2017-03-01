@@ -34,7 +34,7 @@
           <h3 class="panel-title">Please Sign In</h3>
         </div>
         <div class="panel-body">
-          <form method="POST" action="@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@">
+          <form method="POST" action="@@@@@@@@@@@@@@@">
             <fieldset>
               <div class="form-group">
                 <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus required>
@@ -49,8 +49,8 @@
               </div>
               <!-- Change this to a button or input when using this as a form -->
               <button type="submit" class="btn btn-lg btn-success btn-block">Login</button>
-              <a class="btn btn-lg btn-primary btn-block" href="#" role="button">Sign Up</a>
-              <h6><a href="SignUp.html" style="float: right">Forgot password?</a></h6>
+              <a class="btn btn-lg btn-primary btn-block" href="SignUp.jsp" role="button">Sign Up</a>
+              <h6><a href="#" style="float: right">Forgot password?</a></h6>
             </fieldset>
           </form>
         </div>
