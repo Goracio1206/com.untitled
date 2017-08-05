@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin 2 - Bootstrap Admin Theme</title>
+  <title>Accounting</title>
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap/main-core/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- MetisMenu CSS -->
@@ -50,7 +50,7 @@
               <!-- Change this to a button or input when using this as a form -->
               <button type="submit" class="btn btn-lg btn-success btn-block">Login</button>
               <a class="btn btn-lg btn-primary btn-block" href="SignUp.jsp" role="button">Sign Up</a>
-              <h6><a href="#" style="float: right">Forgot password?</a></h6>
+              <h6><a href="ForgorPassword.jsp" style="float: right">Forgot password?</a></h6>
             </fieldset>
           </form>
         </div>

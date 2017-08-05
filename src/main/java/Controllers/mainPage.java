@@ -34,7 +34,7 @@ public class mainPage extends HttpServlet {
             e.printStackTrace();
         }
 
-        response.getWriter().write(user.getId() + "  " + user.getEmail());
+        //response.getWriter().write(user.getId() + "  " + user.getEmail());
 
         request.setAttribute("user", user);
         request.getRequestDispatcher(PAGE_OK).forward(request, response);

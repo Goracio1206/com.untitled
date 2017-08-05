@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Accounting</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap/main-core/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- MetisMenu CSS -->
@@ -47,20 +47,22 @@
                         <div class="form-group">
                             <label for="Pass">*Password:</label>
                             <input class="form-control" placeholder="Password" name="password" type="password" value=""
-                                    id="Pass" required>
+                                   id="Pass" required>
                         </div>
                         <div class="form-group">
                             <label for="confirmPass">*Confirm Password:</label>
                             <input class="form-control" placeholder="Password" name="password" type="password" value=""
-                                    id="confirmPass" required>
+                                   id="confirmPass" required>
                         </div>
-                        <p class="bg-info" style="padding: 10px">We would strongly recommend you, fill all information in the Profile page</p>
+                        <p class="bg-info" style="padding: 10px">We would strongly recommend you, fill all information
+                            in the Profile page</p>
                         <!-- Change this to a button or input when using this as a form -->
                         <button class="btn btn-block btn-primary btn-lg" type="submit">Create</button>
-                        </fieldset>
+                        <h5><a href="index.jsp" style="float: right"> Back to main page </a></h5>
                     </form>
                     <div class="panel-body">
-                        <a href="index.jsp" class="btn btn-block btn-primary btn-lg" role="button">Back to Main Page</a>
+                        <%--<a href="index.jsp" class="btn btn-block btn-primary btn-lg" role="button">Back to Main Page</a>--%>
+
                     </div>
                 </div>
             </div>
